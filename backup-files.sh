@@ -83,13 +83,13 @@ else
 				usr/local/etc/
 				usr/local/share/
 
-				home/javi/.password-store/
-				home/javi/.gnupg/
-				home/javi/.config/
+				home/<user>/.password-store/
+				home/<user>/.gnupg/
+				home/<user>/.config/
 
-				home/javi/.local/var/aur/aurpkgs.db.tar
-				home/javi/.bash_profile
-				home/javi/.bashrc"
+				home/<user>/.local/var/aur/aurpkgs.db.tar
+				home/<user>/.bash_profile
+				home/<user>/.bashrc"
 	EXCLUDE_NAMES=(
 					--exclude="$0"
 					)
